@@ -7,17 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE40709523025FF2002A4AF9 /* MainConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40709423025FF2002A4AF9 /* MainConfig.swift */; };
+		CE40709723030D00002A4AF9 /* URL+Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40709623030D00002A4AF9 /* URL+Parameters.swift */; };
+		CE530EE822E82135007F2C29 /* AuthServiceFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE530EE722E82135007F2C29 /* AuthServiceFacade.swift */; };
+		CE530EEE22E82714007F2C29 /* SocialResourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE530EED22E82714007F2C29 /* SocialResourceProtocol.swift */; };
+		CE530EF022E82A95007F2C29 /* VKResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE530EEF22E82A94007F2C29 /* VKResource.swift */; };
+		CE530EF222E82BD5007F2C29 /* FBResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE530EF122E82BD5007F2C29 /* FBResource.swift */; };
+		CE530EF422E82BE6007F2C29 /* FoursquareResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE530EF322E82BE6007F2C29 /* FoursquareResource.swift */; };
+		CE530EFA22E8352E007F2C29 /* LoginProcessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE530EF922E8352E007F2C29 /* LoginProcessController.swift */; };
+		CE530EFD22E864E4007F2C29 /* UserPrefencesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE530EFC22E864E4007F2C29 /* UserPrefencesEntity.swift */; };
+		CE530EFF22E86A97007F2C29 /* UserPlainObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE530EFE22E86A97007F2C29 /* UserPlainObject.swift */; };
+		CE5C872D230D897D008D1B53 /* UniversalRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C872C230D897D008D1B53 /* UniversalRequest.swift */; };
+		CE5C872F230EF33A008D1B53 /* InternetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C872E230EF33A008D1B53 /* InternetChecker.swift */; };
+		CE5C8731230EFF2F008D1B53 /* PlainObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C8730230EFF2F008D1B53 /* PlainObject.swift */; };
+		CEBF466A2310489300FF91F4 /* StartTrekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF46692310489300FF91F4 /* StartTrekViewController.swift */; };
+		CED1A11222FE7D8B00980223 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1A11122FE7D8B00980223 /* UIViewController+alert.swift */; };
+		CED1A11522FE87C200980223 /* NotficationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1A11422FE87C200980223 /* NotficationName.swift */; };
+		CED1A11D23000AB800980223 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1A11C23000AB800980223 /* UIApplication.swift */; };
+		CED1A12023000B2300980223 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1A11F23000B2300980223 /* ActivityIndicator.swift */; };
+		CED1A12423002C4B00980223 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1A12323002C4B00980223 /* Server.swift */; };
 		CED679D022C63EB500E33FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED679CF22C63EB500E33FE5 /* AppDelegate.swift */; };
-		CED679D222C63EB500E33FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED679D122C63EB500E33FE5 /* ViewController.swift */; };
+		CED679D222C63EB500E33FE5 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED679D122C63EB500E33FE5 /* AuthViewController.swift */; };
 		CED679D522C63EB500E33FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED679D322C63EB500E33FE5 /* Main.storyboard */; };
 		CED679D722C63EBA00E33FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED679D622C63EBA00E33FE5 /* Assets.xcassets */; };
 		CED679DA22C63EBA00E33FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED679D822C63EBA00E33FE5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE40709423025FF2002A4AF9 /* MainConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfig.swift; sourceTree = "<group>"; };
+		CE40709623030D00002A4AF9 /* URL+Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Parameters.swift"; sourceTree = "<group>"; };
+		CE530EE722E82135007F2C29 /* AuthServiceFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthServiceFacade.swift; path = "../../../../../../../../../System/Volumes/Data/Users/user/Documents/Xcode Projects/FacadeAuth/FacadeAuth/Common/Services/Auth/AuthServiceFacade.swift"; sourceTree = "<group>"; };
+		CE530EED22E82714007F2C29 /* SocialResourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SocialResourceProtocol.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/user/Documents/Xcode Projects/FacadeAuth/FacadeAuth/Common/Services/Auth/Social/SocialResourceProtocol.swift"; sourceTree = "<group>"; };
+		CE530EEF22E82A94007F2C29 /* VKResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VKResource.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/user/Documents/Xcode Projects/FacadeAuth/FacadeAuth/Common/Services/Auth/Social/VKResource.swift"; sourceTree = "<group>"; };
+		CE530EF122E82BD5007F2C29 /* FBResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FBResource.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/user/Documents/Xcode Projects/FacadeAuth/FacadeAuth/Common/Services/Auth/Social/FBResource.swift"; sourceTree = "<group>"; };
+		CE530EF322E82BE6007F2C29 /* FoursquareResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoursquareResource.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/user/Documents/Xcode Projects/FacadeAuth/FacadeAuth/Common/Services/Auth/Social/FoursquareResource.swift"; sourceTree = "<group>"; };
+		CE530EF922E8352E007F2C29 /* LoginProcessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginProcessController.swift; path = "../../../../../../../../System/Volumes/Data/Users/user/Documents/Xcode Projects/FacadeAuth/FacadeAuth/Controllers/Login/LoginProcessController.swift"; sourceTree = "<group>"; };
+		CE530EFC22E864E4007F2C29 /* UserPrefencesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserPrefencesEntity.swift; path = "../../../../../../../../System/Volumes/Data/Users/user/Documents/Xcode Projects/FacadeAuth/FacadeAuth/Models/Entities/UserPrefencesEntity.swift"; sourceTree = "<group>"; };
+		CE530EFE22E86A97007F2C29 /* UserPlainObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPlainObject.swift; sourceTree = "<group>"; };
+		CE5C872C230D897D008D1B53 /* UniversalRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalRequest.swift; sourceTree = "<group>"; };
+		CE5C872E230EF33A008D1B53 /* InternetChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetChecker.swift; sourceTree = "<group>"; };
+		CE5C8730230EFF2F008D1B53 /* PlainObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainObject.swift; sourceTree = "<group>"; };
+		CEBF46692310489300FF91F4 /* StartTrekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTrekViewController.swift; sourceTree = "<group>"; };
+		CED1A11122FE7D8B00980223 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		CED1A11422FE87C200980223 /* NotficationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotficationName.swift; sourceTree = "<group>"; };
+		CED1A11C23000AB800980223 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		CED1A11F23000B2300980223 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		CED1A12323002C4B00980223 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		CED679CC22C63EB500E33FE5 /* FacadeAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacadeAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED679CF22C63EB500E33FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED679D122C63EB500E33FE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED679D122C63EB500E33FE5 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		CED679D422C63EB500E33FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED679D622C63EBA00E33FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED679D922C63EBA00E33FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +73,192 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE40708F2301C6EC002A4AF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE4070922301C726002A4AF9 /* Assets */,
+				CE4070912301C706002A4AF9 /* Config */,
+				CE4070902301C6F9002A4AF9 /* Storyboards */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE4070902301C6F9002A4AF9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CED679D322C63EB500E33FE5 /* Main.storyboard */,
+				CED679D822C63EBA00E33FE5 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE4070912301C706002A4AF9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CED679DB22C63EBA00E33FE5 /* Info.plist */,
+				CE40709423025FF2002A4AF9 /* MainConfig.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		CE4070922301C726002A4AF9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CED679D622C63EBA00E33FE5 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		CE530EDF22E81ABF007F2C29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CED1A11322FE830200980223 /* StartTrekController */,
+				CE530EE022E81ACE007F2C29 /* Authorization */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE530EE022E81ACE007F2C29 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				CED679D122C63EB500E33FE5 /* AuthViewController.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		CE530EE122E81AF7007F2C29 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CED1A11E23000B0700980223 /* Utilities */,
+				CED1A11022FE7D5700980223 /* Extensions */,
+				CE530EE422E820A2007F2C29 /* Services */,
+				CE530EE222E81B06007F2C29 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE530EE222E81B06007F2C29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE530EE322E81B1A007F2C29 /* Button */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE530EE322E81B1A007F2C29 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		CE530EE422E820A2007F2C29 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE530EE522E820EE007F2C29 /* Auth */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE530EE522E820EE007F2C29 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CE530EE622E82107007F2C29 /* Social */,
+				CE530EE722E82135007F2C29 /* AuthServiceFacade.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CE530EE622E82107007F2C29 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				CE530EED22E82714007F2C29 /* SocialResourceProtocol.swift */,
+				CE530EEF22E82A94007F2C29 /* VKResource.swift */,
+				CE530EF122E82BD5007F2C29 /* FBResource.swift */,
+				CE530EF322E82BE6007F2C29 /* FoursquareResource.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		CE530EE922E821B9007F2C29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C8730230EFF2F008D1B53 /* PlainObject.swift */,
+				CE530EFB22E864B4007F2C29 /* Entities */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE530EF522E834DA007F2C29 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE530EF722E834FA007F2C29 /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE530EF722E834FA007F2C29 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE530EF922E8352E007F2C29 /* LoginProcessController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE530EFB22E864B4007F2C29 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CE530EFC22E864E4007F2C29 /* UserPrefencesEntity.swift */,
+				CE530EFE22E86A97007F2C29 /* UserPlainObject.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		CED1A11022FE7D5700980223 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CED1A11C23000AB800980223 /* UIApplication.swift */,
+				CED1A11122FE7D8B00980223 /* UIViewController+alert.swift */,
+				CED1A11422FE87C200980223 /* NotficationName.swift */,
+				CE40709623030D00002A4AF9 /* URL+Parameters.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CED1A11322FE830200980223 /* StartTrekController */ = {
+			isa = PBXGroup;
+			children = (
+				CEBF46692310489300FF91F4 /* StartTrekViewController.swift */,
+			);
+			path = StartTrekController;
+			sourceTree = "<group>";
+		};
+		CED1A11E23000B0700980223 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CED1A11F23000B2300980223 /* ActivityIndicator.swift */,
+				CE5C872E230EF33A008D1B53 /* InternetChecker.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CED1A12123002C2100980223 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CED1A12223002C2700980223 /* NetworkService */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CED1A12223002C2700980223 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				CED1A12323002C4B00980223 /* Server.swift */,
+				CE5C872C230D897D008D1B53 /* UniversalRequest.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
 		CED679C322C63EB500E33FE5 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +279,12 @@
 			isa = PBXGroup;
 			children = (
 				CED679CF22C63EB500E33FE5 /* AppDelegate.swift */,
-				CED679D122C63EB500E33FE5 /* ViewController.swift */,
-				CED679D322C63EB500E33FE5 /* Main.storyboard */,
-				CED679D622C63EBA00E33FE5 /* Assets.xcassets */,
-				CED679D822C63EBA00E33FE5 /* LaunchScreen.storyboard */,
-				CED679DB22C63EBA00E33FE5 /* Info.plist */,
+				CE40708F2301C6EC002A4AF9 /* Resources */,
+				CED1A12123002C2100980223 /* Helpers */,
+				CE530EE922E821B9007F2C29 /* Models */,
+				CE530EE122E81AF7007F2C29 /* Common */,
+				CE530EF522E834DA007F2C29 /* Controllers */,
+				CE530EDF22E81ABF007F2C29 /* ViewControllers */,
 			);
 			path = FacadeAuth;
 			sourceTree = "<group>";
@@ -135,8 +360,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED679D222C63EB500E33FE5 /* ViewController.swift in Sources */,
+				CE5C872F230EF33A008D1B53 /* InternetChecker.swift in Sources */,
+				CED1A11D23000AB800980223 /* UIApplication.swift in Sources */,
+				CED679D222C63EB500E33FE5 /* AuthViewController.swift in Sources */,
+				CE40709723030D00002A4AF9 /* URL+Parameters.swift in Sources */,
+				CEBF466A2310489300FF91F4 /* StartTrekViewController.swift in Sources */,
+				CE530EFD22E864E4007F2C29 /* UserPrefencesEntity.swift in Sources */,
+				CE530EFA22E8352E007F2C29 /* LoginProcessController.swift in Sources */,
+				CED1A12023000B2300980223 /* ActivityIndicator.swift in Sources */,
+				CE530EFF22E86A97007F2C29 /* UserPlainObject.swift in Sources */,
+				CE40709523025FF2002A4AF9 /* MainConfig.swift in Sources */,
+				CE530EE822E82135007F2C29 /* AuthServiceFacade.swift in Sources */,
+				CE530EF422E82BE6007F2C29 /* FoursquareResource.swift in Sources */,
+				CE530EEE22E82714007F2C29 /* SocialResourceProtocol.swift in Sources */,
+				CE5C872D230D897D008D1B53 /* UniversalRequest.swift in Sources */,
+				CED1A11222FE7D8B00980223 /* UIViewController+alert.swift in Sources */,
+				CED1A12423002C4B00980223 /* Server.swift in Sources */,
+				CE5C8731230EFF2F008D1B53 /* PlainObject.swift in Sources */,
+				CE530EF022E82A95007F2C29 /* VKResource.swift in Sources */,
+				CE530EF222E82BD5007F2C29 /* FBResource.swift in Sources */,
 				CED679D022C63EB500E33FE5 /* AppDelegate.swift in Sources */,
+				CED1A11522FE87C200980223 /* NotficationName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +529,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A73X6UYZ4W;
 				INFOPLIST_FILE = FacadeAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +548,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A73X6UYZ4W;
 				INFOPLIST_FILE = FacadeAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
